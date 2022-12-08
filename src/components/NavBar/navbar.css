@@ -1,0 +1,14 @@
+.navigation-wrapper {
+	padding-top: 20px;
+}
+
+.navigation-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.navigation-item {
+	margin-right: 25px;
+}
