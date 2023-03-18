@@ -1,0 +1,67 @@
+.meta {
+	align-items: center;
+	max-height: 300px;
+}
+
+.abstract {
+	margin-right: 75px;
+}
+
+.link {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.title {
+	margin: 0;
+	margin-bottom: 10px;
+	width: 670px;
+	height: 70px;
+	font-family: cheltenham_b;
+	font-weight: bold;
+}
+
+.description {
+	font-size: 18px;
+	margin: 0;
+	width: 670px;
+	height: 70px;
+	font-family: cheltenham_l;
+}
+
+.thumbnail {
+	max-width: 250px;
+	max-height: 150px;
+}
+
+.full-image {
+	position: relative;
+	display: block;
+	margin: auto;
+	background-color: hsl(0, 0%, 90%);
+	transition: background-color 300ms;
+	opacity: 1;
+}
+
+
+
+.dropdown:nth-child(1n) {
+	position: absolute;
+	right: 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	border-radius: 3px;
+	background-color: black;
+	width: 1000px;
+	height: 800px;
+	top: 10px;
+	right: 18vw;
+	opacity: 0.9;
+}
+/* 
+.closeButton {
+	background-color: var(--greyD9);
+	padding: 12px 23px;
+	border-radius: 0 0 3px 3px;
+	width: 100%;
+} */

@@ -1,12 +1,11 @@
 import React from "react";
-import { NewsWrapper } from "./NewsWrapper";
-
+import { NewsItems } from "./NewsItem";
 import "./newsstream.css";
 
 export function NewsStream() {
 	return (
 		<section>
-			<NewsWrapper />
+			<NewsItems/>
 		</section>
 	);
 }

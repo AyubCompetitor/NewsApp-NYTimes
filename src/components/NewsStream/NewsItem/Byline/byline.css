@@ -1,0 +1,26 @@
+.dates-container {
+	margin: 10px 75px 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 13px;
+	color: #555555;
+}
+
+.date {
+	width: 150px;
+	display: block;
+	font-family: franklin_n;
+}
+
+.author {
+	margin-bottom: 3px;
+	width: 160px;
+	display: block;
+	font-family: franklin_n;
+}
+
+.byline-link {
+	color: #4D4D4D;
+	text-decoration: underline;
+}
