@@ -5,10 +5,8 @@ import { MetaData } from "./MetaData";
 import generateRandomString from "../../../utils/generateRandomKey";
 import "./newsitem.css";
 
-
 export function NewsItems() {
-
-	const news = useSelector(state => state.news);
+	const news = useSelector((state) => state.news);
 
 	const renderNews = (arr) => {
 		const items = arr.map((item) => {
@@ -20,22 +18,12 @@ export function NewsItems() {
 					</div>
 				</li>
 			);
-		})
+		});
 
-		return (
-			<ul>
-				{items}
-			</ul>
-		)
-	}
+		return <ul>{items}</ul>;
+	};
 
 	const viewNews = renderNews(news);
 
-	return (
-
-		<div className="news-wrapper">
-			{viewNews}
-			<button onClick={() => console.log(news)}>---------</button>
-		</div >
-	);
+	return <div className="news-wrapper">{viewNews}</div>;
 }
